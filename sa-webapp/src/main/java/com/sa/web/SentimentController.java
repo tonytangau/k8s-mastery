@@ -17,8 +17,8 @@ public class SentimentController {
     public SentimentDto sentimentAnalysis(@RequestBody SentenceDto sentenceDto) {
         RestTemplate restTemplate = new RestTemplate();
 
-        return restTemplate.postForEntity(saLogicApiUrl + "/analyse/sentiment",
-                sentenceDto, SentimentDto.class)
+        return restTemplate
+                .postForEntity(saLogicApiUrl + "/analyse/sentiment", sentenceDto, SentimentDto.class)
                 .getBody();
     }
 
