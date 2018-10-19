@@ -16,7 +16,7 @@ spec:
         app: sa-frontend
     spec:
       containers:
-        - image: tonytangcn/sentiment-analysis-frontend
+        - image: tonytangcn/sentiment-analysis-frontend:minikube
           imagePullPolicy: Always
           name: sa-frontend
           ports:

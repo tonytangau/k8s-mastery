@@ -16,7 +16,7 @@ spec:
         app: sa-web-app
     spec:
       containers:
-      - image: tonytangcn/sentiment-analysis-web-app
+      - image: tonytangcn/sentiment-analysis-webapp
         imagePullPolicy: Always
         name: sa-web-app
         env:

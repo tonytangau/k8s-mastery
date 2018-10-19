@@ -16,7 +16,7 @@ spec:
         app: sa-frontend
     spec:
       containers:
-        - image: tonytangcn/sentiment-analysis-frontend:green
+        - image: tonytangcn/sentiment-analysis-frontend:blue
           imagePullPolicy: Always
           name: sa-frontend
           ports:
